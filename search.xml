@@ -7,12 +7,8 @@
       <title><![CDATA[用Hexo+Github创建博客站点]]></title>
       <url>http://starkchen.com/2016/05/12/create_blog_with_hexo/</url>
       <content type="html"><![CDATA[<p>第一篇博客，如果不写一个怎么搭建的博客，感觉有点对不起这个博客站点，除了自己搭建博客站点外，现在的可选择的博客网站有很多，比如现在比较火的简书<a href="http://www.jianshu.com/" target="_blank" rel="external">http://www.jianshu.com/</a>，而我打算自己用Hexo+Github搭建一个。<br><a id="more"></a></p>
-<p>##一、<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo —— 快速、简洁且高效的博客框架</a></p>
-<p>###1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>###2、博客搭建好了，剩下的就是写作了</p>
-<p>####新建一篇文章：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<h2 id="一、Hexo-——-快速、简洁且高效的博客框架"><a href="#一、Hexo-——-快速、简洁且高效的博客框架" class="headerlink" title="一、Hexo —— 快速、简洁且高效的博客框架"></a>一、<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo —— 快速、简洁且高效的博客框架</a></h2><h3 id="1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站"><a href="#1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站" class="headerlink" title="1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站"></a>1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="2、博客搭建好了，剩下的就是写作了"><a href="#2、博客搭建好了，剩下的就是写作了" class="headerlink" title="2、博客搭建好了，剩下的就是写作了"></a>2、博客搭建好了，剩下的就是写作了</h3><h4 id="新建一篇文章："><a href="#新建一篇文章：" class="headerlink" title="新建一篇文章："></a>新建一篇文章：</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>使用一些支持Markdown语法的编辑器写下自己的博客内容，比我使用的是<a href="http://zh.mweb.im/" target="_blank" rel="external">MWeb</a>。<br>更多信息: <a href="https://hexo.io/zh-cn/docs/writing.html" target="_blank" rel="external">写作</a></p>
 <h4 id="启动服务，访问查看博客效果"><a href="#启动服务，访问查看博客效果" class="headerlink" title="启动服务，访问查看博客效果"></a>启动服务，访问<localhost:4000>查看博客效果</localhost:4000></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>更多信息: <a href="https://hexo.io/zh-cn/docs/server.html" target="_blank" rel="external">服务器</a></p>
@@ -20,7 +16,7 @@
 <p>这步，Hexo会按照主题把写好的文档解析成静态网页到<code>public</code>文件夹下。<br>更多信息: <a href="https://hexo.io/zh-cn/docs/generating.html" target="_blank" rel="external">生成器</a></p>
 <h4 id="部署你的静态博客"><a href="#部署你的静态博客" class="headerlink" title="部署你的静态博客"></a>部署你的静态博客</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>这步，会按照配置文件中你配置的部署地址进行部署。<br>更多信息: <a href="https://hexo.io/zh-cn/docs/deployment.html" target="_blank" rel="external">部署</a></p>
-<p>##二、使用第三方主题<br>这里我使用的主题是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">hexo-theme-next</a>，鉴于这个主题的<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">官方文档</a>十分完备且友好，我这里就不赘述了，直接按照文档走，就能轻松使用这个主题了。</p>
+<h2 id="二、使用第三方主题"><a href="#二、使用第三方主题" class="headerlink" title="二、使用第三方主题"></a>二、使用第三方主题</h2><p>这里我使用的主题是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">hexo-theme-next</a>，鉴于这个主题的<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">官方文档</a>十分完备且友好，我这里就不赘述了，直接按照文档走，就能轻松使用这个主题了。</p>
 ]]></content>
     </entry>
     
