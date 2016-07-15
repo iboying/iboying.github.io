@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://starkchen.com/"/>
-  <updated>2016-05-13T04:46:37.000Z</updated>
+  <updated>2016-05-13T03:13:38.000Z</updated>
   <id>http://starkchen.com/</id>
   
   <author>
@@ -14,24 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>begin</title>
-    <link href="http://starkchen.com/2016/05/13/begin/"/>
-    <id>http://starkchen.com/2016/05/13/begin/</id>
-    <published>2016-05-13T04:45:46.000Z</published>
-    <updated>2016-05-13T04:46:37.000Z</updated>
-    
-    <content type="html">&lt;h1 id=&quot;新的开始，用心前行&quot;&gt;&lt;a href=&quot;#新的开始，用心前行&quot; class=&quot;headerlink&quot; title=&quot;新的开始，用心前行&quot;&gt;&lt;/a&gt;新的开始，用心前行&lt;/h1&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;新的开始，用心前行&quot;&gt;&lt;a href=&quot;#新的开始，用心前行&quot; class=&quot;headerlink&quot; title=&quot;新的开始，用心前行&quot;&gt;&lt;/a&gt;新的开始，用心前行&lt;/h1&gt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
