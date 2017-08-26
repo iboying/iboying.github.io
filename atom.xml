@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Stark</title>
+  <title>Freeman Tony</title>
   <subtitle>Wow ~</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://starkchen.com/"/>
+  <link href="http://www.weboying.com/"/>
   <updated>2016-07-15T12:57:37.000Z</updated>
-  <id>http://starkchen.com/</id>
+  <id>http://www.weboying.com/</id>
   
   <author>
-    <name>Stark</name>
+    <name>TonyChen</name>
     
   </author>
   
@@ -17,27 +17,27 @@
   
   <entry>
     <title>用Hexo+Github创建博客站点</title>
-    <link href="http://starkchen.com/2016/05/12/create_blog_with_hexo/"/>
-    <id>http://starkchen.com/2016/05/12/create_blog_with_hexo/</id>
+    <link href="http://www.weboying.com/2016/05/12/create_blog_with_hexo/"/>
+    <id>http://www.weboying.com/2016/05/12/create_blog_with_hexo/</id>
     <published>2016-05-12T02:25:53.000Z</published>
     <updated>2016-07-15T12:57:37.000Z</updated>
     
-    <content type="html">&lt;p&gt;第一篇博客，如果不写一个怎么搭建的博客，感觉有点对不起这个博客站点，除了自己搭建博客站点外，现在的可选择的博客网站有很多，比如现在比较火的简书&lt;a href=&quot;http://www.jianshu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/&lt;/a&gt;，而我打算自己用Hexo+Github搭建一个。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;一、Hexo-——-快速、简洁且高效的博客框架&quot;&gt;&lt;a href=&quot;#一、Hexo-——-快速、简洁且高效的博客框架&quot; class=&quot;headerlink&quot; title=&quot;一、Hexo —— 快速、简洁且高效的博客框架&quot;&gt;&lt;/a&gt;一、&lt;a href=&quot;https://hexo.io/zh-cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo —— 快速、简洁且高效的博客框架&lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&quot;1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站&quot;&gt;&lt;a href=&quot;#1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站&quot; class=&quot;headerlink&quot; title=&quot;1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站&quot;&gt;&lt;/a&gt;1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-cli -g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo init blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ &lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;2、博客搭建好了，剩下的就是写作了&quot;&gt;&lt;a href=&quot;#2、博客搭建好了，剩下的就是写作了&quot; class=&quot;headerlink&quot; title=&quot;2、博客搭建好了，剩下的就是写作了&quot;&gt;&lt;/a&gt;2、博客搭建好了，剩下的就是写作了&lt;/h3&gt;&lt;h4 id=&quot;新建一篇文章：&quot;&gt;&lt;a href=&quot;#新建一篇文章：&quot; class=&quot;headerlink&quot; title=&quot;新建一篇文章：&quot;&gt;&lt;/a&gt;新建一篇文章：&lt;/h4&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;使用一些支持Markdown语法的编辑器写下自己的博客内容，比我使用的是&lt;a href=&quot;http://zh.mweb.im/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MWeb&lt;/a&gt;。&lt;br&gt;更多信息: &lt;a href=&quot;https://hexo.io/zh-cn/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;写作&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;启动服务，访问查看博客效果&quot;&gt;&lt;a href=&quot;#启动服务，访问查看博客效果&quot; class=&quot;headerlink&quot; title=&quot;启动服务，访问查看博客效果&quot;&gt;&lt;/a&gt;启动服务，访问&lt;localhost:4000&gt;查看博客效果&lt;/localhost:4000&gt;&lt;/h4&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;更多信息: &lt;a href=&quot;https://hexo.io/zh-cn/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;服务器&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;生成静态文件&quot;&gt;&lt;a href=&quot;#生成静态文件&quot; class=&quot;headerlink&quot; title=&quot;生成静态文件&quot;&gt;&lt;/a&gt;生成静态文件&lt;/h4&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;这步，Hexo会按照主题把写好的文档解析成静态网页到&lt;code&gt;public&lt;/code&gt;文件夹下。&lt;br&gt;更多信息: &lt;a href=&quot;https://hexo.io/zh-cn/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;生成器&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;部署你的静态博客&quot;&gt;&lt;a href=&quot;#部署你的静态博客&quot; class=&quot;headerlink&quot; title=&quot;部署你的静态博客&quot;&gt;&lt;/a&gt;部署你的静态博客&lt;/h4&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;这步，会按照配置文件中你配置的部署地址进行部署。&lt;br&gt;更多信息: &lt;a href=&quot;https://hexo.io/zh-cn/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;部署&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;二、使用第三方主题&quot;&gt;&lt;a href=&quot;#二、使用第三方主题&quot; class=&quot;headerlink&quot; title=&quot;二、使用第三方主题&quot;&gt;&lt;/a&gt;二、使用第三方主题&lt;/h2&gt;&lt;p&gt;这里我使用的主题是&lt;a href=&quot;https://github.com/iissnan/hexo-theme-next&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-theme-next&lt;/a&gt;，鉴于这个主题的&lt;a href=&quot;http://theme-next.iissnan.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方文档&lt;/a&gt;十分完备且友好，我这里就不赘述了，直接按照文档走，就能轻松使用这个主题了。&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p>第一篇博客，如果不写一个怎么搭建的博客，感觉有点对不起这个博客站点，除了自己搭建博客站点外，现在的可选择的博客网站有很多，比如现在比较火的简书<a href="http://www.jianshu.com/" target="_blank" rel="external">http://www.jianshu.com/</a>，而我打算自己用Hexo+Github搭建一个。<br><a id="more"></a></p>
+<h2 id="一、Hexo-——-快速、简洁且高效的博客框架"><a href="#一、Hexo-——-快速、简洁且高效的博客框架" class="headerlink" title="一、Hexo —— 快速、简洁且高效的博客框架"></a>一、<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo —— 快速、简洁且高效的博客框架</a></h2><h3 id="1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站"><a href="#1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站" class="headerlink" title="1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站"></a>1、按照官方的指导，依次执行即可搭建一个Hexo默认的博客网站</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div><div class="line">$ hexo init blog</div><div class="line">$ <span class="built_in">cd</span> blog</div><div class="line">$ npm install</div><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<h3 id="2、博客搭建好了，剩下的就是写作了"><a href="#2、博客搭建好了，剩下的就是写作了" class="headerlink" title="2、博客搭建好了，剩下的就是写作了"></a>2、博客搭建好了，剩下的就是写作了</h3><h4 id="新建一篇文章："><a href="#新建一篇文章：" class="headerlink" title="新建一篇文章："></a>新建一篇文章：</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>使用一些支持Markdown语法的编辑器写下自己的博客内容，比我使用的是<a href="http://zh.mweb.im/" target="_blank" rel="external">MWeb</a>。<br>更多信息: <a href="https://hexo.io/zh-cn/docs/writing.html" target="_blank" rel="external">写作</a></p>
+<h4 id="启动服务，访问查看博客效果"><a href="#启动服务，访问查看博客效果" class="headerlink" title="启动服务，访问查看博客效果"></a>启动服务，访问<localhost:4000>查看博客效果</localhost:4000></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/zh-cn/docs/server.html" target="_blank" rel="external">服务器</a></p>
+<h4 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>这步，Hexo会按照主题把写好的文档解析成静态网页到<code>public</code>文件夹下。<br>更多信息: <a href="https://hexo.io/zh-cn/docs/generating.html" target="_blank" rel="external">生成器</a></p>
+<h4 id="部署你的静态博客"><a href="#部署你的静态博客" class="headerlink" title="部署你的静态博客"></a>部署你的静态博客</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>这步，会按照配置文件中你配置的部署地址进行部署。<br>更多信息: <a href="https://hexo.io/zh-cn/docs/deployment.html" target="_blank" rel="external">部署</a></p>
+<h2 id="二、使用第三方主题"><a href="#二、使用第三方主题" class="headerlink" title="二、使用第三方主题"></a>二、使用第三方主题</h2><p>这里我使用的主题是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">hexo-theme-next</a>，鉴于这个主题的<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">官方文档</a>十分完备且友好，我这里就不赘述了，直接按照文档走，就能轻松使用这个主题了。</p>
+]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;第一篇博客，如果不写一个怎么搭建的博客，感觉有点对不起这个博客站点，除了自己搭建博客站点外，现在的可选择的博客网站有很多，比如现在比较火的简书&lt;a href=&quot;http://www.jianshu.com/&quot;&gt;http://www.jianshu.com/&lt;/a&gt;，而我打算自己用Hexo+Github搭建一个。&lt;br&gt;
+      &lt;p&gt;第一篇博客，如果不写一个怎么搭建的博客，感觉有点对不起这个博客站点，除了自己搭建博客站点外，现在的可选择的博客网站有很多，比如现在比较火的简书&lt;a href=&quot;http://www.jianshu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/&lt;/a&gt;，而我打算自己用Hexo+Github搭建一个。&lt;br&gt;
     
     </summary>
     
